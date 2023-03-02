@@ -144,6 +144,11 @@ button.add {
   color: white;
   border-radius: 20px;
 }
+.item-image {
+  height: 400px;
+  width: 500px;
+  margin: 0 auto;
+}
 @media screen and (max-width: 850px) {
   .items {
     grid-template-columns: auto auto;
@@ -165,6 +170,11 @@ button.add {
   ul.items {
     padding: 5px 0px;
   }
+  .item-image {
+    height:220px;
+    width: 300px;
+  
+}
 }
 
 /****************************
